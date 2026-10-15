@@ -1,0 +1,15 @@
+# ---- 音乐文件：不入库，避免体积膨胀和隐私泄露 ----
+flac/
+mp3/
+
+# ---- FFmpeg 二进制（约 98MB，太大不适合进 git）----
+# 首次使用请按 README「获取 FFmpeg」一节操作，或从 Release 下载完整包
+bin/
+
+# ---- 工具元数据 ----
+.workbuddy/
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+*.tmp
